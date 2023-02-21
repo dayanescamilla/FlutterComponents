@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-//import 'package:flutter_components/screens/listview_one_screen.dart';
-import 'package:flutter_components/screens/listview_two_screen.dart';
+import 'package:flutter_components/screens/screens.dart';
 
 void main() => runApp(const MyApp());
 
@@ -10,10 +9,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: ListviewTwoScreen(),
+      home: const ListviewTwoScreen(),
+      initialRoute: 'home',
+      routes: {
+        'home': (BuildContext context) => const HomeScreen(),
+        'listauno': (BuildContext context) => const ListviewOneScreen(),
+        'listados': (BuildContext context) => const ListviewTwoScreen(),
+        'alerta': (BuildContext context) => const AlertScreen(),
+        'card': (BuildContext context) => const CardScreen(),
+      },
     );
   }
 }
