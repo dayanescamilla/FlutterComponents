@@ -4,14 +4,9 @@ import 'package:flutter_components/models/models.dart';
 import '../screens/screens.dart';
 
 class AppRoutes {
-  static const initalRoute = 'home';
+  static const initalRoute = HomeScreen();
 
   static final menuOptions = <MenuOptions>[
-    MenuOptions(
-        route: 'home',
-        icon: Icons.home,
-        name: 'Pantalla Bienvenida',
-        screen: const HomeScreen()),
     MenuOptions(
         route: 'listauno',
         icon: Icons.list,
