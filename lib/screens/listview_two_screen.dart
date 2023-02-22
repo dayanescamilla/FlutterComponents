@@ -9,7 +9,7 @@ class ListviewTwoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red[600],
+        //backgroundColor: Colors.red[600],
         elevation: 10,
         title: const Text('ListView DOS'),
       ),
