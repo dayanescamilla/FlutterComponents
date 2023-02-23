@@ -15,12 +15,17 @@ class CardScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
         children: const [
           CustomCardOne(),
-          SizedBox(height: 10),
-          CustomWidgetTwo(),
-          SizedBox(height: 10),
-          CustomWidgetTwo(),
-          SizedBox(height: 10),
-          CustomWidgetTwo(),
+          SizedBox(height: 20),
+          CustomWidgetTwo(
+            imageURL:
+                'https://pbs.twimg.com/media/FKNlhKZUcAEd7FY?format=jpg&name=4096x4096',
+            textoOne: 'Dayan',
+          ),
+          SizedBox(height: 20),
+          CustomWidgetTwo(
+            imageURL:
+                'https://pbs.twimg.com/media/FKNuKJeXoAIx1Rs?format=jpg&name=large',
+          ),
         ],
       ),
     );
