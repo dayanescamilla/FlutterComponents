@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components/Widgets/widgets.dart';
-import 'package:flutter_components/theme/app_theme.dart';
+//import 'package:flutter_components/theme/app_theme.dart';
 
 class CardScreen extends StatelessWidget {
   const CardScreen({super.key});
