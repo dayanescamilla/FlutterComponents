@@ -32,6 +32,11 @@ class AppRoutes {
         icon: Icons.airline_seat_individual_suite_sharp,
         name: 'Avatar',
         screen: const AvatarScreen()),
+    MenuOptions(
+        route: 'animatedcontainer',
+        icon: Icons.animation,
+        name: 'Animated Container',
+        screen: const AnimatedContainerScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
