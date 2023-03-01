@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_components/theme/app_theme.dart';
+//import 'package:flutter_components/theme/app_theme.dart';
 
 class AnimatedContainerScreen extends StatefulWidget {
   const AnimatedContainerScreen({super.key});
