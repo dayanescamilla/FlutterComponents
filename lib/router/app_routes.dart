@@ -47,6 +47,11 @@ class AppRoutes {
         icon: Icons.slideshow,
         name: 'Slider Screen',
         screen: const SlideScreen()),
+    MenuOptions(
+        route: 'listbuilder',
+        icon: Icons.list,
+        name: 'Lisview Builder Screen',
+        screen: const ListViewBuilderScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
